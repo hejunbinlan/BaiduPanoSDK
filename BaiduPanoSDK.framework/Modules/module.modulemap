@@ -1,0 +1,17 @@
+
+framework module BaiduPanoSDK {
+  umbrella header "BaiduLocationPanoData.h"
+   header "BaiduPanoData.h"
+   header "BaiduPanoDataFetcher.h"
+   header "BaiduPanoImageOverlay.h"
+   header "BaiduPanoLabelOverlay.h"
+   header "BaiduPanoOverlay.h"
+   header "BaiduPanoramaView.h"
+   header "BaiduPanoUtils.h"
+   header "BaiduPoiPanoData.h"
+  
+  export *
+  module * { export * }
+
+  link "c++"
+}
