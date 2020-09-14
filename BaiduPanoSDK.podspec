@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage = 'http://lbsyun.baidu.com/index.php?title=ios-panosdk'
     s.authors = { "hejunbin" => "hejunbinzhuanglan@126.com" }
 
-    s.source = { :svn => "https://github.com/hejunbinlan/BaiduPanoSDK.git", :tag => s.version.to_s }
+    s.source = { :git => "https://github.com/hejunbinlan/BaiduPanoSDK.git", :tag => s.version.to_s }
 
     s.platform = :ios
     s.ios.deployment_target = '9.0'
